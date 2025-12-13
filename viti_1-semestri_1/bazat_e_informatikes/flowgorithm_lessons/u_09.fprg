@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="u_09"/>
+        <attribute name="authors" value="developer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-08 03:21:03 PM"/>
+        <attribute name="created" value="ZGV2ZWxvcGVyO0RFQklBTjsyMDI1LTEyLTA4OzAzOjA1OjIzIFBNOzI2NjI="/>
+        <attribute name="edited" value="ZGV2ZWxvcGVyO0RFQklBTjsyMDI1LTEyLTA4OzAzOjIxOjAzIFBNOzE7Mjc2Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota" type="Integer" array="False" size=""/>
+            <output expression="&quot;Shkruaj noten: &quot;" newline="True"/>
+            <input variable="nota"/>
+            <if expression="nota &lt; 101">
+                <then>
+                    <if expression="nota &gt;= 90">
+                        <then>
+                            <output expression="&quot;Nota = 10.&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="nota &gt;= 80 &amp;&amp; nota &lt; 90">
+                                <then>
+                                    <output expression="&quot;Nota = 9.&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="nota &gt;= 70 &amp;&amp; nota &lt; 80">
+                                        <then>
+                                            <output expression="&quot;Nota = 8.&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="nota &gt;= 60 &amp;&amp; nota &lt; 70">
+                                                <then>
+                                                    <output expression="&quot;Nota = 7.&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="nota &gt;= 50 &amp;&amp; nota &lt; 60">
+                                                        <then>
+                                                            <output expression="&quot;Nota = 6&quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="nota &gt;= 40 &amp;&amp; nota &lt; 50">
+                                                                <then>
+                                                                    <output expression="&quot;Nota = 5.&quot;" newline="True"/>
+                                                                </then>
+                                                                <else>
+                                                                    <output expression="&quot;Nota = 4.&quot;" newline="True"/>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;Nota duhet te jete nga 1 deri ne 100.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

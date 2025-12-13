@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="u_02"/>
+        <attribute name="authors" value="developer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-08 02:31:32 PM"/>
+        <attribute name="created" value="ZGV2ZWxvcGVyO0RFQklBTjsyMDI1LTEyLTA4OzAxOjQ4OjEyIFBNOzI2NjU="/>
+        <attribute name="edited" value="ZGV2ZWxvcGVyO0RFQklBTjsyMDI1LTEyLTA4OzAyOjMxOjMyIFBNOzE7Mjc2OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numer, ore, minuta, sekonda, mediate" type="Integer" array="False" size=""/>
+            <output expression="&quot;Shkruaj numrin ne sekonda: &quot;" newline="True"/>
+            <input variable="numer"/>
+            <assign variable="ore" expression="numer / 3600"/>
+            <assign variable="mediate" expression="numer % 3600"/>
+            <assign variable="minuta" expression="mediate / 60"/>
+            <assign variable="sekonda" expression="mediate % 60"/>
+            <output expression="&quot;ore &quot;&amp;ore" newline="True"/>
+            <output expression="&quot;Minuta &quot;&amp;minuta" newline="True"/>
+            <output expression="&quot;Sekonda &quot;&amp;sekonda" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

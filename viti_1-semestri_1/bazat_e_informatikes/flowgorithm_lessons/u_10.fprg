@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="u_10"/>
+        <attribute name="authors" value="developer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-08 03:33:47 PM"/>
+        <attribute name="created" value="ZGV2ZWxvcGVyO0RFQklBTjsyMDI1LTEyLTA4OzAzOjIzOjQ4IFBNOzI2Njk="/>
+        <attribute name="edited" value="ZGV2ZWxvcGVyO0RFQklBTjsyMDI1LTEyLTA4OzAzOjMzOjQ3IFBNOzE7Mjc3Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numer" type="Integer" array="False" size=""/>
+            <output expression="&quot;Shkruaj nje numer nga 1 deri ne 12.&quot;" newline="True"/>
+            <input variable="numer"/>
+            <if expression="numer == 1">
+                <then>
+                    <output expression="&quot;Janar&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="numer == 2">
+                <then>
+                    <output expression="&quot;Shkurt&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="numer == 3">
+                <then>
+                    <output expression="&quot;Mars&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="numer == 4">
+                <then>
+                    <output expression="&quot;Prill&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="numer == 5">
+                <then>
+                    <output expression="&quot;Maj&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="numer == 6">
+                <then>
+                    <output expression="&quot;Qershor&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="numer == 7">
+                <then>
+                    <output expression="&quot;Korrik&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="numer == 8">
+                <then>
+                    <output expression="&quot;Gusht&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="numer == 9">
+                <then>
+                    <output expression="&quot;Shtator&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="numer == 10">
+                <then>
+                    <output expression="&quot;Tetor&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="numer == 11">
+                <then>
+                    <output expression="&quot;Nentor&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="numer == 12">
+                <then>
+                    <output expression="&quot;Dhjetor&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="numer &lt; 1 &amp;&amp; numer &gt; 12">
+                <then>
+                    <output expression="&quot;Duhet nje numer ndermjet 1 dhe 12.&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

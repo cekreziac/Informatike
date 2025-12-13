@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="u_07"/>
+        <attribute name="authors" value="developer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-08 02:52:54 PM"/>
+        <attribute name="created" value="ZGV2ZWxvcGVyO0RFQklBTjsyMDI1LTEyLTA4OzAyOjUwOjM3IFBNOzI2NjY="/>
+        <attribute name="edited" value="ZGV2ZWxvcGVyO0RFQklBTjsyMDI1LTEyLTA4OzAyOjUyOjU0IFBNOzE7Mjc3NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota" type="Integer" array="False" size=""/>
+            <output expression="&quot;Shkruaj noten e studentit: &quot;" newline="True"/>
+            <input variable="nota"/>
+            <if expression="nota &gt; 44">
+                <then>
+                    <output expression="&quot;Studenti kalon.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Studenti nuk kalon.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
